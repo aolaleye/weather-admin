@@ -71,11 +71,11 @@ function isUser() {
               return console.log(err);
             }
 
-            console.log("--------------------------------------");
+            console.log("-------------------------------------------------------------------");;
             console.log("City: " + result[0].location.name);
             console.log("Current Temperature (Fahrenheit): " + result[0].current.temperature);
             console.log("Forecast: " + result[0].current.skytext);
-            console.log("--------------------------------------");
+            console.log("-------------------------------------------------------------------");;
           
           });
     });
@@ -87,7 +87,7 @@ function isAdmin() {
     {
         type: "list",
         message: "What information are you requesting?",
-        choices: ["Number of Users", "Complete User Information"],
+        choices: ["Number of Users", "Comprehensive User Information"],
         name: "requestedInfo"
     }
     ]).then(function(response) {
@@ -99,10 +99,12 @@ function isAdmin() {
                     return console.log(error);
                 }
                 var commandArray = data.split("\n"); 
-                console.log(commandArray.length + " users have retrieved weather information.");
+                console.log("-------------------------------------------------------------------");;
+                console.log(commandArray.length + " users have retrieved weather information from this application.");
+                console.log("-------------------------------------------------------------------");;
             });
         }
-        else if (response.requestedInfo === "Complete User Information") {
+        else if (response.requestedInfo === "Comprehensive User Information") {
             showCommandLog();
         }
   });
@@ -118,7 +120,7 @@ function logCommand() {
         if (err) {
             console.log(err);
         }
-        console.log("command was logged.")
+        // console.log("command was logged.")
     });
 
 } //<--- end logCommand() function
@@ -136,9 +138,10 @@ function showCommandLog() {
         
         // logs previous commands
         for (i = 0; i < commandArray.length; i++) {
+            console.log("-------------------------------------------------------------------");;
             console.log(commandArray[i]);
         }
- 
+        console.log("-------------------------------------------------------------------");;
     });
 
 } //<--- end showCommandLog() function
