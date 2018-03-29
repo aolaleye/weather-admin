@@ -1,6 +1,6 @@
 # Weather Admin Node Application
 
-This application leads the user to one of two pathways: an Admin View or a User View.
+__This application leads the user to one of two pathways: an Admin View or a User View.__
 
 * If __User__ is chosen, the application prompts the user to enter his or her name, and a location for which weather information will be retrieved. Upon completion, the user receives the current weather in the specified location.
     * The user's name, location, and the date of search are logged into a separate file.
@@ -15,5 +15,5 @@ __This application utlizes the following npm packages:__
 * _moment (for date formatting)_
 
 __How to initialize the application:__
-# `node weather.js`
+#### `node weather.js`
 
