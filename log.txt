@@ -11,3 +11,4 @@ Name: Ryan, Location: Newark, NJ, Date: 03-25-2018
 Name: Kyle, Location: Seattle, WA, Date: 03-25-2018
 Name: Lauren, Location: Las Vegas, NV, Date: 03-25-2018
 Name: Katie, Location: Albuquerque, NM, Date: 03-25-2018
+Name: Liza, Location: San Francisco, CA, Date: 03-29-2018
