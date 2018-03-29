@@ -1,25 +1,16 @@
 # Weather Admin Node Application
 
-* Create a command line interface application using Node.js (either with inquirer or process.argv).
+* The application leads the user to one of two pathways: an Admin View or a User View.
+* The User View prompts the user to provide their Name and the Location they'd like weather information for. Upon completion, the User receives the weather in Fahrenheit the specified locations
+    * The user's name, location, and the date of search are logged into a separate file.
+* The Admin View allows an admistrator to access stored user information. The application prompts the adminstrator to specify the type of information that is requested. 
+* __NOTE__: _When admin is chosen, the application asks for a password. For test purposes, the password is "admin"_.
 
-* The application should lead the user to one of two pathways: an Admin View or a User View.
+This application utlizes the following npm packages:
+  * weather-js (to retrieve weather information)
+  * moment (for date formatting)
+  * inquirer (to retrieve information from the user)
 
-* The User View should prompt the user to provide their Name and the Location they'd like weather information for. Upon completion, the User should get the weather in Fahrenheit at that location.
+How to initialize the application:
+## `node weather.js`
 
-* The Admin View should simply provide a list of every user's search while also including the "date" of each search. See sample below:
-
-```
-Name: Ahmed, Location: Atlanta, Date: 10-15-16
-Name: Adri, Location: Newark, Date: 10-12-16
-Name: Joe, Location: Omaha, Date: 10-10-16
-```
-
----
-
-* In order to complete this activity you will need to make use of:
-
-  * The weather-js npm package.
-
-  * The moment npm package for date formatting.
-
-  * Two constructors: One for "UserSearch" and one for "WeatherAdmin".
