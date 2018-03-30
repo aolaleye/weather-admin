@@ -9,13 +9,14 @@
     * The user's name, location, and the date of search are logged into a separate file.
 
 * If __Admin__ is chosen, the application allows the admistrator to access stored user information. The application prompts the adminstrator to specify the type of information that is requested and outputs the requested information in the admin's terminal/bash window. 
-    * __NOTE:__ _When admin is chosen, the application asks for a password. For test purposes, the password is "admin"_.
+    * __NOTE:__ When admin is chosen, the application asks for a password. For test purposes, the password is "admin".
 
 #### __This application utlizes the following npm packages:__
-* _fs (to access information within separate files)_
-* _inquirer (to retrieve information from the user)_
-* _weather-js (to retrieve weather information)_
-* _moment (for date formatting)_
-* __Note:__ _run `npm i` to install the packages included in the json package_
+* __fs__ _(to access information within separate files)_
+* __inquirer__ _(to retrieve information from the user)_
+* __weather-js__ _(to retrieve weather information)_
+* __moment__ _(for date formatting)_
+
+__Note:__ _run `npm i` to install the packages included in the json package_
 
 
