@@ -1,5 +1,8 @@
 # Weather Admin Node Application
 
+#### __How to initialize the application:__
+### `node weather.js`
+
 #### __This application leads the user to one of two pathways: an Admin View or a User View.__
 
 * If __User__ is chosen, the application prompts the user to enter his or her name and a location. Upon completion, the application outputs the current weather in the specified location in the user's terminal/bash window.
@@ -13,7 +16,6 @@
 * _inquirer (to retrieve information from the user)_
 * _weather-js (to retrieve weather information)_
 * _moment (for date formatting)_
+* __Note:__ _run `npm i` to install the packages included in the json package_
 
-#### __How to initialize the application:__
-#### `node weather.js`
 
