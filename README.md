@@ -22,7 +22,7 @@ __Note:__ _run `npm i` to install the packages included in the json package_
 #
 
 __DEMO:__
-* ![alt text](weatheradmin1.gif)
+![alt text](weatheradmin1.gif)
 
 
 
