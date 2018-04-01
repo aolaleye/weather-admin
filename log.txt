@@ -12,3 +12,4 @@ Name: Kyle, Location: Seattle, WA, Date: 03-25-2018
 Name: Lauren, Location: Las Vegas, NV, Date: 03-25-2018
 Name: Katie, Location: Albuquerque, NM, Date: 03-25-2018
 Name: Liza, Location: San Francisco, CA, Date: 03-29-2018
+Name: Monica, Location: Dallas, TX, Date: 04-01-2018
