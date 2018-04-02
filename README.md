@@ -1,4 +1,4 @@
-# Weather Admin Node Application
+# Weather Admin - Node Application
 
 #### __How to initialize the application:__
 * #### `node weather.js`
