@@ -1,7 +1,7 @@
 # Weather Admin - Node Application
 
 #### __How to initialize the application:__
-* #### `node weather.js`
+> #### `node weather.js`
 
 #### __This application leads the user to one of two pathways: an Admin View or a User View.__
 
