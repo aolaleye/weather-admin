@@ -12,7 +12,7 @@
 
     > * __NOTE:__ When admin is chosen, the application asks for a password. For test purposes, the password is "admin".
 
-#### __This application utlizes the following npm packages:__
+#### __This application utilizes the following npm packages:__
 * __fs__ _(to access information within separate files)_
 * __inquirer__ _(to retrieve information from the user)_
 * __weather-js__ _(to retrieve weather information)_
