@@ -1,4 +1,6 @@
-# Weather Admin - Node Application
+# Weather Admin
+
+This node application allows users to retrieve weather information based on location and allows administrators to access stored user information.
 
 #### __How to initialize the application:__
 #### > `node weather.js`
