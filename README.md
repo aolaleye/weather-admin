@@ -22,7 +22,7 @@
 
 #
 
-#### > __Demo Video:__
+#### > __Click Below for Demo Video:__
 
 [![Weather Admin Demo Video](weatheradmin1.gif)](https://drive.google.com/open?id=1Mp5WGldwA5xOsHOidF1Uw4-ikepaNT94)
 
